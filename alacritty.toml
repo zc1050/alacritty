@@ -1,0 +1,72 @@
+# [font]
+# size = 17.0
+#
+# [font.bold]
+# family = "monospace"
+#
+# [font.bold_italic]
+# family = "monospace"
+# style = "Bold Italic"
+#
+# [font.italic]
+# family = "monospace"
+# style = "Italic"
+#
+# [font.normal]
+# family = "monospace"
+# style = "Regular"
+#
+#
+# [env]
+# TERM = "xterm-256color"
+#
+#
+# [window]
+# dynamic_padding = true
+# #透明度
+# opacity = 0.95
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/blood_moon.toml"
+]
+
+
+[window]
+dynamic_padding = true
+opacity = 0.98
+blur = true
+startup_mode = "Windowed"
+decorations = "None"
+
+[window.padding]
+x = 10
+y = 10
+
+[font]
+size = 16.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[cursor]
+style = "Beam"
+blink_interval = 500
+blink_timeout = 0
+
+[cursor.vi_mode_style]
+shape = "Block"
+
