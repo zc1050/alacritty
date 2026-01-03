@@ -2,7 +2,8 @@
 # author tonsky
 
 [colors.primary]
-background = '#0E1415'
+# background = '#0E1415'
+background = '#000000'
 foreground = '#CECECE'
 
 [colors.cursor]

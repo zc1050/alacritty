@@ -1,40 +1,15 @@
-# [font]
-# size = 17.0
-#
-# [font.bold]
-# family = "monospace"
-#
-# [font.bold_italic]
-# family = "monospace"
-# style = "Bold Italic"
-#
-# [font.italic]
-# family = "monospace"
-# style = "Italic"
-#
-# [font.normal]
-# family = "monospace"
-# style = "Regular"
-#
-#
-# [env]
-# TERM = "xterm-256color"
-#
-#
-# [window]
-# dynamic_padding = true
-# #透明度
-# opacity = 0.95
+[env]
+TERM = "xterm-256color"
 
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/blood_moon.toml"
+    "~/.config/alacritty/themes/themes/alabaster_dark.toml"
 ]
 
 
 [window]
 dynamic_padding = true
-opacity = 0.98
+opacity = 0.95
 blur = true
 startup_mode = "Windowed"
 decorations = "None"
@@ -58,15 +33,15 @@ style = "Bold"
 family = "JetBrainsMono Nerd Font"
 style = "Italic"
 
-[scrolling]
-history = 10000
-multiplier = 3
+# [scrolling]
+# history = 10000
+# multiplier = 3
 
-[cursor]
-style = "Beam"
-blink_interval = 500
-blink_timeout = 0
+# [cursor]
+# style = "Beam"
+# blink_interval = 500
+# blink_timeout = 0
 
-[cursor.vi_mode_style]
-shape = "Block"
+# [cursor.vi_mode_style]
+# shape = "Block"
 
